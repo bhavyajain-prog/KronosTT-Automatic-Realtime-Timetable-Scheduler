@@ -1,0 +1,18 @@
+# Java/Maven artifacts
+target/
+*.class
+.mvn/wrapper/maven-wrapper.jar
+
+# Node/npm artifacts
+node_modules/
+dist/
+.vite/
+
+# OS/editor junk
+.DS_Store
+.idea/
+.vscode/
+
+# Environment files
+*.env
+!*.env.example
