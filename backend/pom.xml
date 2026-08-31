@@ -12,7 +12,7 @@
 
     <properties>
         <java.version>25</java.version>
-        <spring-boot.version>3.4.0</spring-boot.version>
+        <spring-boot.version>3.5.5</spring-boot.version>
         <spring-dotenv.version>4.0.0</spring-dotenv.version>
     </properties>
 
@@ -48,6 +48,12 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
+            <scope>test</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>com.h2database</groupId>
+            <artifactId>h2</artifactId>
             <scope>test</scope>
         </dependency>
 
