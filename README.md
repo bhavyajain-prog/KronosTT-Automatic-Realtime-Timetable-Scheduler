@@ -11,3 +11,5 @@ A monorepo college project with a Spring Boot backend and a React/TypeScript fro
 ### Frontend setup
 
 *To be filled in once the frontend is scaffolded.*
+
+<!-- CI verification commit -->
