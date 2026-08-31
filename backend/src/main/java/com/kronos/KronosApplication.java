@@ -10,3 +10,5 @@ public class KronosApplication {
         SpringApplication.run(KronosApplication.class, args);
     }
 }
+
+// CI verification
