@@ -7,7 +7,7 @@ import com.kronos.engine.model.Session;
 import java.util.ArrayList;
 import java.util.List;
 
-public abstract class AbstractPlacementAlgo {
+public abstract class AbstractPlacementAlgo implements Algo {
     protected final List<Session> sessions;
     protected final List<ScheduledSession> lockedSessions;
 
@@ -16,7 +16,7 @@ public abstract class AbstractPlacementAlgo {
         this.lockedSessions = lockedSessions;
     }
 
-    @Override
+
     public final ScheduledResult generateTimeTable() {
         sortSessionsByDifficulty();
 

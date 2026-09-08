@@ -1,5 +1,6 @@
 package com.kronos.engine.model;
 
+import com.kronos.enums.SubjectType;
 import lombok.Builder;
 import lombok.Getter;
 

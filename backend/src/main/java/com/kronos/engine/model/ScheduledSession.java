@@ -1,5 +1,6 @@
 package com.kronos.engine.model;
 
+import com.kronos.enums.WeekDay;
 import lombok.Builder;
 import lombok.Getter;
 

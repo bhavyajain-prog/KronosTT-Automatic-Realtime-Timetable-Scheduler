@@ -5,4 +5,6 @@ import com.kronos.engine.model.ScheduledResult;
 @FunctionalInterface
 public interface Algo {
     ScheduledResult generateTimetable();
+
+
 }
